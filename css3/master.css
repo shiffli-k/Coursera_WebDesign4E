@@ -1,0 +1,19 @@
+/*Commenting in css*/
+html{
+  background: #ddf3f5;
+}
+body{
+  font-family: monospace;
+  font-size: 18px;
+}
+h2{
+  color: #ff2e63;
+  font-size: 32px;
+}
+h3{
+  color: #00adb5;
+}
+p{
+  color: #393e46;
+  font-style: oblique;
+}
