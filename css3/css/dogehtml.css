@@ -1,6 +1,7 @@
 /*Commenting in css*/
 html{
   background: #ddf3f5;
+  text-align: center;
 }
 body{
   font-family: monospace;
@@ -12,8 +13,15 @@ h2{
 }
 h3{
   color: #00adb5;
+  font-size: 28px;
 }
 p{
   color: #393e46;
   font-style: oblique;
+}
+
+footer{
+  color: #00adb5;
+  font-style: normal;
+  font-size: 18px;
 }
