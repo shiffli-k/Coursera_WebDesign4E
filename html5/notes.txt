@@ -1,0 +1,54 @@
+---------DOM----------
+The document object model.
+  > The head and body are the main two part.
+  > The root of any HTML5 page is the <html> tag
+  > The head has metadata, the body has content.
+
+Tags:
+  > There are tags that having starting and closing.
+    <p></p>
+  > There are self closing tags.
+    <img src = />
+
+  > Block and Inline tags:
+    headings <h1>.....<h6>
+    paragraph tag
+    div tag Put related content here.
+  > List
+    Ordered List and Unordered List
+  > Line break
+    <br>
+Image Tags:
+  > It has attributes such as src and alt
+
+Sematic Tags:
+Header Tag
+  > The main tag with introduction
+Navigation Tag
+  > Navigation to same page or different.
+Footer tag
+
+Figure tag
+  > Links image with text.
+
+--------Image in HTML-------
+2Image.html
+  > having width or height in percentage will make the size
+  relative to the ratio of browser screen
+  > Favicons
+  > Alternative Test:
+----------Hyperlinks in HTML--------
+Types of link:
+  1. Absolute Links
+  2. relative
+  3. Internal - Refer something in the same page using # mark
+  4. Graphical
+----------Multimedia in HTML---------
+Video and Audio elements
+  > Video attributes
+    >Height, width; Autoplay; loop; controls
+  > Audio attributes
+    >autoplay; buffered; muted ; volume : exit
+----------Tables-----------------------
+  > Use tr for headings
+  > Row span to merge cells
