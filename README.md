@@ -1,5 +1,5 @@
-# Coursera_HTML
-Climbing HTML
+# Coursera_WebDesign4E
+Climbing HTML and CSS
 
 Getting synced with ATOM - GitHub
 
