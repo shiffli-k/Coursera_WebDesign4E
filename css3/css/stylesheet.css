@@ -1,0 +1,32 @@
+/*Commenting in css*/
+html{
+  background: #ddf3f5;
+  text-align: center;
+}
+body{
+  font-family: monospace;
+  font-size: 18px;
+  border-style: outset;
+  border-width: 2px;
+  border-color: #00adb5;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h2{
+  color: #ff2e63;
+  font-size: 32px;
+}
+h3{
+  color: #00adb5;
+  font-size: 28px;
+}
+p{
+  color: #393e46;
+  font-style: oblique;
+}
+
+footer{
+  color: #00adb5;
+  font-style: normal;
+  font-size: 18px;
+}

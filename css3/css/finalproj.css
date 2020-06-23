@@ -1,2 +1,56 @@
 html{
+  background: #ddf3f5;
+}
+
+body{
+  font-family: monospace;
+  font-size: 18px;
+  margin: 5%;
+}
+
+h2{
+  color: #ff2e63;
+  font-size: 32px;
+}
+
+h3{
+  color: #00adb5;
+  font-size: 28px;
+}
+
+section{
+  display: inline-block;
+  width: 20%;
+  float: left;
+  margin: 2%;
+}
+
+a:hover{
+  text-decoration: none;
+  border: 2px;
+  border-color: black;
+}
+a:focus{
+  border: 2px;
+  border-color: gray;
+  border-style: outset;
+}
+
+p{
+  color: #393e46;
+  font-style: oblique;
+}
+
+footer{
+  clear: both;  /*Dont float elements next to footer*/
+  color: #00adb5;
+  font-style: normal;
+  font-size: 18px;
+}
+ul{
+  list-style-type: armenian;
+}
+
+img{
+  width: 10%;
 }
