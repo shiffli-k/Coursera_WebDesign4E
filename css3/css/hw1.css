@@ -1,0 +1,143 @@
+
+
+/*
+	NOTE: CSS for Table starts at line 81
+	Thanks for reviewing my code.
+*/
+
+html{
+  font-family: monospace;
+  font-size: 24px;
+  background-color: #cff6cf;
+}
+
+header{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url("../images/flywheel.jpg");
+  background-size: cover;
+  padding: 26px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+header a{
+  color: #fb5b5a;
+  text-decoration: none;
+  background: rgba(0,0,0,0.4);
+  border-radius: 4px;
+  padding: 4px;
+}
+.active{
+  padding: 5px;
+  background: rgba(0,0,0,0.8);
+}
+
+h1{
+  text-align: center;
+  font-size: 200%;
+  color: #96bb7c;
+  text-shadow: 2px 2px #184d47;
+}
+
+
+h2{
+  color: #be79df;
+}
+
+
+.left img{
+  display: block;
+  width: 90%;
+  height: 90%;
+  padding: 20px;
+  margin: auto;
+}
+.left{
+  border-radius: 10px;
+  margin: 20px;
+  float: left;
+  width: 20%;
+  background-color: #96bb7c;
+}
+
+
+.right{
+  background-color: #d7fffd;
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 120%;
+  float: right;
+  width: 70%;
+}
+
+/* NOTE: Changes made to table starts here! */
+
+/* To change
+1. The table should be styled using at least four properties
+2. The table headings should have a thicker bottom border with the top two corners rounded, a background color, and at least one other property
+3. Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered
+4. Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible)
+5. Change the opacity of a row when it is hovered over
+6. The table elements <td> should be styled using at least four properties
+ */
+
+table{
+	margin: auto;
+  border-style: ridge;
+	border-width: 10px;
+  border-color: #184d47;
+	border-radius: 8px;
+	padding: 8px;
+}
+th, td{
+	font-size: 80%;
+	font-weight: bold;
+	padding: 10px;
+	border-style: solid;
+	border-color: #d7fffd;
+	text-shadow: 1px 1px 40px;
+	text-overflow: clip;
+}
+
+td{
+	font-size: 75%;
+	font-weight: normal;
+	font-style: italic;
+	color: #342b38;
+	border-radius: 8px;
+}
+
+tr:nth-child(even){
+	background-color: rgba(207, 229, 207, 0.4);
+	text-align: center;
+}
+tr:nth-child(odd){
+	background-color: rgba(128, 189, 171, 0.4);
+	text-align: center;
+}
+th{
+	background-color: #2fc4b2;
+	border-color: #06623b;
+	border-bottom-width: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-spacing: 10px;
+}
+
+td:first-child{
+	text-align: left;
+}
+
+tr:nth-child(odd):hover{
+	background-color: rgba(128, 189, 171, 1);
+	text-align: center;
+}
+
+tr:nth-child(even):hover{
+	background-color: rgba(207, 229, 207, 1);
+	text-align: center;
+}
